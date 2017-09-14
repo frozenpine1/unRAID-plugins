@@ -14,24 +14,7 @@
          version="&version;"
          category="&category;"
          pluginURL="&pluginURL;">
-<!--
-Copyright 2017, Frozen Pine (frozenpine)
 
-This Plugin adds Minio Cloud Storage to unRAID v6.
-
-Plugin file locations:
- /boot/config/plugins/minio.plg      		       # this file
- /boot/config/plugins/minio/minio                      # service file
- /boot/config/plugins/minio/read_me.txt                # Help File
- /etc/rc.d/rc.minio                                    # plugin control script
- /usr/local/emhttp/plugins/minio/minio.page	       # page file for webGui menu system
- /usr/local/emhttp/plugins/minio/minio.png             # plugin icon file
- /usr/local/emhttp/plugins/minio/device_status.png     # plugin webgui image file
- /usr/local/emhttp/plugins/minio/new_config.png        # plugin webgui image file
- /usr/local/emhttp/plugins/minio/information.png       # plugin webgui image file
- /var/run/minio/minio.pid                              # run-time pid file
-
--->
 <FILE Name="/boot/config/plugins/&name;/read_me.txt">
 <INLINE>
 <![CDATA[
