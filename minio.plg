@@ -9,7 +9,7 @@
 <!ENTITY packageURL "https://dl.minio.io/server/minio/release/linux-amd64/&name;">
 ]>
 
-<PLUGIN  name="&name;"
+<PLUGIN  name="Mimio"
          author="&author;"
          version="&version;"
          category="&category;"
