@@ -3,7 +3,7 @@
 <!DOCTYPE PLUGIN [
 <!ENTITY name       "minio">
 <!ENTITY author     "frozenpine1">
-<!ENTITY version    "2017.09.14">
+<!ENTITY version    "2017.09.14a">
 <!ENTITY category   "Network Services">
 <!ENTITY pluginURL  "https://raw.github.com/frozenpine1/unRAID-plugins/master/&name;.plg">
 <!ENTITY packageURL "https://dl.minio.io/server/minio/release/linux-amd64/&name;">
@@ -32,5 +32,9 @@ Plugin file locations:
  /var/run/minio/minio.pid                              # run-time pid file
 
 -->
+<FILE Name="/boot/config/plugins/&name;/&name">
+<URL>&packageURL;/minio</URL>
+</FILE>
+
 
 </PLUGIN>
