@@ -32,9 +32,33 @@ Plugin file locations:
  /var/run/minio/minio.pid                              # run-time pid file
 
 -->
-<FILE Name="/boot/config/plugins/&name;/&name">
-<URL>&packageURL;/minio</URL>
-</FILE>
+<FILE Name="/boot/config/plugins/&name;/read_me.txt">
+<INLINE>
+<![CDATA[
+NAME:
+  minio - Cloud Storage Server.
 
+DESCRIPTION:
+  Minio is an Amazon S3 compatible object storage server. Use it to store photos, videos, VMs, containers, log files, or any blob of data as objects.
+
+USAGE:
+  minio [FLAGS] COMMAND [ARGS...]
+
+COMMANDS:
+  server   Start object storage server.
+  version  Print version.
+  update   Check for a new software update.
+  gateway  Start object storage gateway.
+
+FLAGS:
+  --config-dir value, -C value  Path to configuration directory. (default: "/root/.minio")
+  --quiet                       Disable startup information.
+  --help, -h                    Show help.
+
+VERSION:
+  2017-08-05T00:00:53Z
+]]>
+</INLINE>
+</FILE>
 
 </PLUGIN>
