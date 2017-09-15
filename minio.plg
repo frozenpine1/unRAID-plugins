@@ -15,7 +15,7 @@
     category="&category;"
     pluginURL="&pluginURL;">
     
-    <FILE Name="/boot/config/plugins/&name;/&name">
+<FILE Name="/boot/config/plugins/&name;/&name">
         <URL>&packageURL;/minio</URL>
-    </FILE>
+</FILE>
 </PLUGIN>
