@@ -3,7 +3,7 @@
 <!DOCTYPE PLUGIN [
 <!ENTITY name       "minio">
 <!ENTITY author     "frozenpine1">
-<!ENTITY version    "2017.09.13">
+<!ENTITY version    "2017.09.15">
 <!ENTITY category   "Network Services">
 <!ENTITY pluginURL  "https://raw.github.com/frozenpine1/unRAID-plugins/master/&name;.plg">
 <!ENTITY packageURL "https://dl.minio.io/server/minio/release/linux-amd64/&name;">
