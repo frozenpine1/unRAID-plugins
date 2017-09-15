@@ -3,7 +3,7 @@
 <!DOCTYPE PLUGIN [
 <!ENTITY name       "minio">
 <!ENTITY author     "frozenpine1">
-<!ENTITY version    "2017.09.14c">
+<!ENTITY version    "2017.09.14d">
 <!ENTITY category   "Network Services">
 <!ENTITY pluginURL  "https://raw.github.com/frozenpine1/unRAID-plugins/master/&name;.plg">
 <!ENTITY packageURL "https://dl.minio.io/server/minio/release/linux-amd64/&name;">
@@ -24,6 +24,16 @@ PORT="9000"
 ACCESSKEY=""
 SECRETKEY=""
 USERLIST="-1"
+</INLINE>
+</FILE>
+<FILE Run="/bin/bash" Method="install">
+<INLINE>
+if [ -d /usr/local/emhttp/plugins/&name; ]; then
+  rm -r /usr/local/emhttp/plugins/&name;
+fi;
+if [ -f /etc/rc.d/rc.&name; ]; then
+  rm -f /etc/rc.d/rc.&name;
+fi;
 </INLINE>
 </FILE>
 </PLUGIN>
