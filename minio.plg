@@ -35,7 +35,7 @@ Plugin file locations:
 -->
 
 <FILE Name="/boot/config/plugins/&name;/&name;">
-<URL>&packageURL;/minio</URL>
+<URL>&packageURL;</URL>
 </FILE>
 
 <FILE Name="/boot/config/plugins/&name;/read_me.txt">
