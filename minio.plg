@@ -10,12 +10,11 @@
 ]>
 
 <PLUGIN  name="&name;"
-         author="&author;"
-         version="&version;"
-         category="&category;"
-         pluginURL="&pluginURL;">
- 
-<FILE Name="/boot/config/plugins/&name;/&name">
-<URL>&packageURL;/minio</URL>
-</FILE>
+    author="&author;"
+    version="&version;"
+    category="&category;"
+    pluginURL="&pluginURL;">
+    <FILE Name="/boot/config/plugins/&name;/&name">
+        <URL>&packageURL;/minio</URL>
+    </FILE>
 </PLUGIN>
