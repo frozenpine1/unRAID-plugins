@@ -15,7 +15,15 @@
     category="&category;"
     pluginURL="&pluginURL;">
     
-<FILE Name="/boot/config/plugins/&name;/&name">
-        <URL>&packageURL;/minio</URL>
+<FILE Name="/boot/config/plugins/&name;/&name;.cfg">
+<INLINE>
+SERVICE="enable"
+COMMAND="service"
+ADDRESS=""
+PORT="9000"
+ACCESSKEY=""
+SECRETKEY=""
+USERLIST="-1"
+</INLINE>
 </FILE>
 </PLUGIN>
