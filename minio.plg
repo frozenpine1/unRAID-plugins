@@ -136,7 +136,7 @@ This Plugin adds Minio Cloud Storage to unRAID v6.
 <INLINE>
 Menu="NetworkServices"
 Title="Minio"
-Icon="&name;.png"
+Icon="minio.png"
 ---
 <![CDATA[
 
